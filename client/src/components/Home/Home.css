@@ -1,0 +1,21 @@
+.homeContainer{
+    height: 90vh;
+    width:100%;
+    background: url("https://1.bp.blogspot.com/-Vif5y1VQ2cQ/XSmsxUJmosI/AAAAAAAAA1Q/Pri6Uc3x4jQq3-9f3fDIHcvhnJvWoYBJQCLcBGAs/s1600/e-voting.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: flex-start;
+}
+
+.buttonContainer{
+  height: 50%;
+  width : 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

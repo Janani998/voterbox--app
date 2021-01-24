@@ -1,0 +1,43 @@
+.votingContainer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.voteHeading{
+    height: "70px";
+    width : 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.imageContainer{
+    height: 90%;
+    width: 15%;
+}
+
+.name{
+    height : 90%;
+    width : 25%;
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+}
+
+.partyName{
+    height : 90%;
+    width : 50%;
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+}

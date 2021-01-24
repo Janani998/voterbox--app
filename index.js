@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({
   app.use(bodyParser.json({limit: "10000gb",extended: true}));
 app.use(bodyParser.json())
 
-const port = process.env.PORT
-const mongodbURI = process.env.MONGODB_URI
+const port = process.env.PORT || 8080
+const mongodbURI = process.env.MONGODB_URI || "mongodb://localhost:27017/votingDB"
 
 
 app.listen(port, ()=> console.log(`App Listening to port ${port}`))
